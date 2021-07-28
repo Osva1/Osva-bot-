@@ -1,0 +1,12 @@
+{
+  "name": "Papi chulo bot",
+  "version": "1.01.02",
+  "description": "hola, soy el bot de Osva papi chulo",
+  "main": "Papi chulo bot.js",
+  "scripts": {
+  "start": "Papi chulo bot.js"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.4.1"
+  }
+}
