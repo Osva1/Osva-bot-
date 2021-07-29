@@ -9,17 +9,17 @@ async function iniciar () {
         client.on('qr', () => {
         })
 
-        fs.existsSync('./Osvapapi.json') && client.loadAuthInfo('./Osvapapi.json')
+        fs.existsSync('./Samu330.json') && client.loadAuthInfo('./Samu330.json')
 
         client.on('connecting', () => {
         console.log('Conectando')
         })
 
         client.on('open', () => {
-        console.log('Conectado perfectamente ahora eres un papi chulo')
+        console.log('Conectado exitosamente :D')
         })
         await client.connect({timeoutMs: 30*1000})
-        fs.writeFileSync('./Osvapapi.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
+        fs.writeFileSync('./Samu330.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
         }
 
 iniciar ()
