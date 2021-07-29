@@ -1,6 +1,6 @@
 {
   "name": "Papi chulo bot",
-  "version": "1.01.02",
+  "version": "1.1.2",
   "description": "hola, soy el bot de Osva papi chulo",
   "main": "Papi chulo bot.js",
   "scripts": {
