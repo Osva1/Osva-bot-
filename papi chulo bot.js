@@ -16,11 +16,11 @@ async function iniciar () {
         })
 
         client.on('open', () => {
-        console.log('Conectado perfectamente ahora eres hot')
+        console.log('Conectado exitosamente :D')
         })
         await client.connect({timeoutMs: 30*1000})
         fs.writeFileSync('./Samu330.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
         }
 
 iniciar ()
-.catch (err => console.log("unexpected error: " + err))
+.catch (err => console.log("unexpected error: " + err)) ok
