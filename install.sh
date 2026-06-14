@@ -10,4 +10,4 @@ rm -rf node_modules package-lock.json auth_info_baileys
 echo "📦 Instalando dependencias de Node.js..."
 npm install
 
-echo "✅ Instalación completada. Para iniciar el bot, ejecuta: npm start o node FuckLove.js"
+echo "✅ Instalación completada. Para iniciar el bot, ejecuta: npm start o node Bot.js"
