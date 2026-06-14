@@ -1,10 +1,10 @@
 {
-  "name": "Bot",
+  "name": "bot",
   "version": "1.1",
   "description": "hola, soy el bot de Osva",
   "main": "Bot.js",
   "scripts": {
-    "start": "Bot.js"
+    "start": "npm start"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "^7.0.0-rc13",
