@@ -17,10 +17,10 @@ Antes de ejecutar este bot, asegúrate de tener instalado:
    cd Osva-bot-
 
 2. Ejecuta el script instalación
-#  npm install
+ npm install
 
 3. listo ejecuta: 
-# npm start
+ npm start
 
 
 La terminal generará un código QR.
