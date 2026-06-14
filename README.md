@@ -32,11 +32,11 @@ Escanea el código QR de la terminal.
 Cuando veas el mensaje "Conectado exitosamente :D", el bot estará en línea.
 
 🛠️ Comandos Disponibles
-El bot utiliza el prefijo ! para escuchar instrucciones. Actualmente soporta:
+El bot utiliza el prefijo - para escuchar instrucciones. Actualmente soporta:
 
-!ping: Responde para verificar que el bot está en línea y funcionando.
+-ping: Responde para verificar que el bot está en línea y funcionando.
 
-!hola: Envía un saludo de confirmación.
+-hola: Envía un saludo de confirmación.
 
 🔒 Seguridad
 El archivo de sesión se guarda automáticamente en el directorio local auth_info_baileys/. Nunca subas esta carpeta a tu repositorio, ya que contiene tus credenciales de acceso de WhatsApp.

@@ -4,11 +4,13 @@
   "description": "hola, soy el bot de Osva",
   "main": "Bot.js",
   "scripts": {
-    "start": "npm start"
+    "start": "node Bot.js"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "@whiskeysockets/baileys": "^7.0.0-rc13",
     "pino": "^10.3.1",
-    "qrcode-terminal": "^0.12.0"
+    "qrcode-terminal": "^0.12.0",
+    "wa-sticker-formatter": "^4.4.4"
   }
 }
